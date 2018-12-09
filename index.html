@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/index.js"></script>
+  <title>Simple to-do</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="info">
+      <h1>WORK TO-DOS</h1>
+      <span>Enter text into the input field to add items to your list. (max. 100 characters)<br>
+        Click the item to mark it as complete, and click it again to remove.<br>
+      </span>
+    </div>
+    <div class="input-todo">
+      <input type="text" placeholder=" New item..." />
+      <button><i class="far fa-plus-square"></i></button>
+    </div>
+  </div>
+  <div class="todo">
+    <span id="label-process">In process:</span>
+    <div class="list-todo">
+      <ul>
+
+      </ul>
+    </div>
+    <span id="label-completed">Completed</span>
+    <div class="list-completed">
+      <ul>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
